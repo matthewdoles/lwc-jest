@@ -41,9 +41,28 @@ export default class AdditionJavascript extends LightningElement {
     // Line 13
     '<div style="background-color: #E8E8E8">&nbsp;&nbsp;<span style="color: #F75D59;">addNumbers</span>() {</div>' +
     // Line 14
-    '<div style="background-color: #F5F5F5">&nbsp;&nbsp;&nbsp;&nbsp;</div>' +
+    '<div style="background-color: #F5F5F5">&nbsp;&nbsp;&nbsp;&nbsp;' +
+    '<span style="color:#0000A0;">this</span>.<span style="color:#3BB9FF;">sum</span> = ' + 
+    '+<span style="color:#0000A0;">this</span>.<span style="color:#3BB9FF;">number1</span> + ' +
+    '+<span style="color:#0000A0;">this</span>.<span style="color:#3BB9FF;">number2</span>;' +
     // Line 15
     '<div style="background-color: #E8E8E8">&nbsp;&nbsp;}</div>' +
-    "}" +
+    // Line 16
+    '<div style="background-color: #F5F5F5"><br/></div>' +
+    // Line 17
+    '<div style="background-color: #E8E8E8">&nbsp;&nbsp;<span style="color: #F75D59;">resetNumbers</span>() {</div>' +
+    // Line 18
+    '<div style="background-color: #F5F5F5">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0000A0;">this</span>.' +
+    '<span style="color:#3BB9FF;">number1</span> = <span style="color:#89C35C;">0</span>;</div>' +
+    // Line 19
+    '<div style="background-color: #E8E8E8">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0000A0;">this</span>.' +
+    '<span style="color:#3BB9FF;">number2</span> = <span style="color:#89C35C;">0</span>;</div>' +
+    // Line 20
+    '<div style="background-color: #F5F5F5">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0000A0;">this</span>.' +
+    '<span style="color:#3BB9FF;">sum</span> = <span style="color:#89C35C;">0</span>;</div>' +
+    // Line 21
+    '<div style="background-color: #E8E8E8">&nbsp;&nbsp;}</div>' +
+    // Line 21
+    '<div style="background-color: #">}</div>' +
     "</div>";
 }
