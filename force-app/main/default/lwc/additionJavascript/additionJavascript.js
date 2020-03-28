@@ -64,5 +64,5 @@ export default class AdditionJavascript extends LightningElement {
     '<div style="background-color: #E8E8E8">&nbsp;&nbsp;}</div>' +
     // Line 21
     '<div style="background-color: #">}</div>' +
-    "</div>";
+    '</div>';
 }
