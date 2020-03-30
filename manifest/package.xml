@@ -2,35 +2,19 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>*</members>
-        <name>ApexClass</name>
+        <name>ContentAsset</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
+        <members>LWC_Jest</members>
+        <name>CustomApplication</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
+        <members>LWC_Jest</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>*</members>
         <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
     </types>
     <version>48.0</version>
 </Package>
