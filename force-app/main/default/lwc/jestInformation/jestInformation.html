@@ -1,0 +1,39 @@
+<template>
+  <lightning-card title="Jest" icon-name="custom:custom14">
+    <div
+      class="slds-m-vertical_medium slds-m-horizontal_x-large"
+      style="font-size: 20px"
+    >
+      <ul style="list-style: outside;">
+        <li class="slds-m-vertical_medium">Only available for Salesforce DX</li>
+        <li class="slds-m-vertical_medium">
+          Node.js and npm are required before installing
+        </li>
+        <li class="slds-m-vertical_medium">
+          <p>
+            Install using Salesforce CLI - sfdx force:lightning:lwc:test:setup
+          </p>
+        </li>
+        <li class="slds-m-vertical_medium">
+          <p>
+            Test files kept in subfolder (__tests__) on each component level
+          </p>
+          <div class="slds-p-around_medium">
+            <lightning-tree items={items}></lightning-tree>
+          </div>
+        </li>
+        <li class="slds-m-vertical_medium">
+          <p>
+            Test files are not stored on Salesforce, compiled locally
+          </p>
+        </li>
+        <li class="slds-m-vertical_medium">
+          <p>
+            Unlike Apex, code coverage is not required - but you can see code
+            coverage using npm run test:unit:coverage.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </lightning-card>
+</template>

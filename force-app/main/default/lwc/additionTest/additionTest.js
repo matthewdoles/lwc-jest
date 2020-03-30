@@ -143,7 +143,7 @@ export default class AdditionTest extends LightningElement {
     // Line 40
     '<div style="background-color: #F5F5F5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' +
     '<span style="color:#3BB9FF;">element</span>.<span style="color:#3BB9FF;">shadowRoot</span>.' +
-    '<span style="color: #F75D59;">querySelectorAll</span>(' +
+    '<span style="color: #F75D59;">querySelector</span>(' +
     '<span style="color:#FFA62F;">"lightning-button"</span>).' +
     '<span style="color: #F75D59;">click</span>();' +
     // Line 41
