@@ -1,0 +1,34 @@
+<template>
+  <lightning-card title="The Big Finale" icon-name="custom:custom14">
+    <lightning-button
+      label="Show"
+      slot="actions"
+      onclick={handleShowFinale}
+    ></lightning-button>
+    <template if:true={showFinale}>
+      <div
+        class="slds-m-vertical_medium slds-m-horizontal_x-large"
+        style="font-size: 20px"
+      >
+        <div class="pyro">
+          <div class="before"></div>
+          <div class="after"></div>
+        </div>
+        <b><p>What's the value?</p></b>
+        <div class="slds-m-vertical_medium slds-m-horizontal_x-large">
+          <ul style="list-style: outside;">
+            <li class="slds-m-vertical_medium">
+              Gets the developer to think more critically about their work
+            </li>
+            <li class="slds-m-vertical_medium">
+              Web Standard 'standard'
+            </li>
+            <li class="slds-m-vertical_medium">
+              Test Driven Devlopment
+            </li>
+          </ul>
+        </div>
+      </div>
+    </template>
+  </lightning-card>
+</template>
