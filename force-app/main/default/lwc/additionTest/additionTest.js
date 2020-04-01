@@ -61,7 +61,7 @@ export default class AdditionTest extends LightningElement {
     '// Gather all input elements</span></div>' +
     // Line 19
     '<div style="background-color: #E8E8E8">&nbsp;&nbsp;&nbsp;&nbsp;' +
-    '<span style="color:#0000A0;">const</span> <span style="color:#3BB9FF;">lightningInputEls</span>' +
+    '<span style="color:#0000A0;">const</span> <span style="color:#3BB9FF;">lightningInputEls</span>.' +
     '<span style="color:#3BB9FF;">element</span>.<span style="color:#3BB9FF;">shadowRoot</span>.' +
     '<span style="color: #F75D59;">querySelectorAll</span>(</div>' +
     // Line 20
