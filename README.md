@@ -2,9 +2,9 @@
 
 This work was put together as a part of a presentation to the Johnson & Johnson Salesforce engineering and leadership team on April 1st, 2020 to demo the current landscape of testing involved with a typical Salesforce project. Presentations were given on Apex testing and Robot framweork test automation, but my section (this work) was focused on using Jest to test frontend Lightning Web Components.
 
-Seeing as it was a presentation on Jest testing LWC components, it seemed fit to present the topic by creating LWC compnents. You can view this presentation at the following link: [https://lwc-jest-developer-edition.na111.force.com/s/](https://lwc-jest-developer-edition.na111.force.com/s/)
+Seeing as it was a presentation on Jest testing LWC, it seemed fit to present the topic with LWC. You can view this presentation at the following link: [https://lwc-jest-developer-edition.na111.force.com/s/](https://lwc-jest-developer-edition.na111.force.com/s/)
 
-Although most of the information you will find on the site will be shortened bulleted points which I expanded on during the presentation itself - the core concepts are there, and you can interact with the Addition component which I gave a demo walkthrough of.
+Although most of the information you will find on the site will be shortened bulleted points which I expanded on during the presentation itself - the core concepts are there, and you can interact with the Addition component which was demoed as an example.
 
 Additionally, feel free to pull down this code and push to your own scratch org using the following steps:
 
