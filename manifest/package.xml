@@ -14,6 +14,7 @@
     </types>
     <types>
         <members>LWC_Jest</members>
+        <members>LWC_Jest_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <types>

@@ -4,7 +4,12 @@
         <application>LWC_Jest</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <description>App permissions to view LWC Jest presentation</description>
+    <description>Permission to view LWC Jest presentation</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>LWC Jest</label>
+    <license>Salesforce</license>
+    <tabSettings>
+        <tab>LWC_Jest</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
