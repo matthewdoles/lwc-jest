@@ -10,6 +10,9 @@
         <componentInstances>
             <componentName>additionJavascript</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentName>bigFinale</componentName>
+        </componentInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
